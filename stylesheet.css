@@ -63,7 +63,20 @@
     
 }
 .hero{
-    width: 100vh;
-    min-height: 500px;
-    background-color:blueviolet;
+    width: 100%;
+    min-height: 400px;
+    margin-top: 20px;
+    background-color:rgb(128, 13, 235);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.direction_column{
+    flex-direction: column;
+}
+.white{
+    color: white;
+}
+.hero_1{
+    justify-content: center;
 }
